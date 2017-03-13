@@ -19,15 +19,15 @@ warnings.warn(
 __VERSION__ = '0.4.9'
 
 setup(
-    name='piston',
+    name='steem-piston',
     version=__VERSION__,
     description='Command line tool to interface with the STEEM network (deprecated)',
     long_description=open('README.md').read(),
     download_url='https://github.com/xeroc/piston-cli/tarball/' + __VERSION__,
     author='Fabian Schuh',
-    author_email='<Fabian@chainsquad.com>',
+    author_email='Fabian@chainsquad.com',
     maintainer='Fabian Schuh',
-    maintainer_email='<Fabian@chainsquad.com>',
+    maintainer_email='Fabian@chainsquad.com',
     url='http://cli.piston.rocks',
     keywords=['steem', 'library', 'api', 'rpc', 'cli'],
     classifiers=[
